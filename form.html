@@ -1,0 +1,81 @@
+<!--
+3.	Form Page - This page is to include 
+Note: the form does not need to work, display only:
+•	Link to use the external CSS
+•	A link to the Introductory Page (use relative link)
+•	Headings size 2 and 4
+•	Text Input 
+•	Password input
+•	Radio buttons (at least 3)
+•	Checkbox (at least 2)
+•	A multiple select box (at least 4 options)
+•	Date input (HTML 5 validation)
+•	Submit button
+
+
+-->
+
+
+<html>
+    <h3><a name="orderedList"></a>
+    <head>
+        <title>PeterG Window Title</title>
+        <link rel="stylesheet" href="csspage.css">
+    </head>
+<body>
+  <a href="index.html">Click here to go to Page 1</a> |
+  <!--  <a href="http://www.csulb.edu">CSULB</a>  -->
+	<h2>
+    Page 2 (heading size 2)
+  </h2>
+  <hr>
+  <h4>Heading size 4</h4>
+
+<p>
+  <form>
+    Message: <input type="text" name="msg"><br>
+    Password: <input type="password" name="pwd"><br>
+    <table>
+      <tr>
+        <td valign="top">
+          Age:<br>
+          <select name="Age">
+            <option value="15">15</option>
+            <option value="23">23</option>
+            <option value="28">28</option>
+            <option value="30">30</option>
+            <option value="other">other</option>
+          </select>
+        </td>
+        <td>
+          Favorite Color:<br>
+            <input type="radio" name="fc" value="Red" checked>Red<br>
+            <input type="radio" name="fc" value="Blue">Blue<br>
+            <input type="radio" name="fc" value="Green">Green<br>
+            <input type="radio" name="fc" value="Other">Other
+        </td>
+        <td valign="top">
+            Other:<br>
+            <input type="checkbox" name="eatin" value="dinein">I will eat in<br>
+            <input type="checkbox" name="member" value="member">I have a membership 
+        </td>          
+      </tr>
+    </table>
+    <input type="submit" value="Submit">   <input type="reset">
+  </form>
+  
+</p>
+
+</body>
+
+
+    <label for="start">Enter a date:</label>
+
+    <input type="date" id="start" name="date-start"
+        value="2023-02-02"
+        min="2023-02-02" max="2033-12-31">
+
+
+
+
+</html>

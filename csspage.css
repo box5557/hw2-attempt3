@@ -1,0 +1,53 @@
+/*
+•	Body – Use Calibri font
+•	Paragraphs – Use Calibri font
+•	h1, h2 – Use Courier New font and color to be red
+•	Links
+    o	Not visited to be red
+    o	Visited to be green
+•	Input Submit Button
+    o	Hover color to be red
+    o	Active color to be green
+•	Unordered lists – make items square
+•	Ordered lists – lower-roman
+•	Tables
+    o	Even row background color to be light gray
+    o	Hover over row background color to be light blue (any row)
+*/
+/*Font*/
+p {
+    font-family: Calibri;
+}
+h1, h2 {
+    font-family: 'Courier New';
+    color: red;
+}
+body {
+    font-family: 'Calibri';
+}
+
+/*Links*/
+a:link {color: red;text-decoration: none;}
+a:visited {color: green;}
+/*Submit Button*/
+input[type="submit"]:hover {background-color: red;}
+input[type="submit"]:active {background-color: green;}
+
+/*Lists*/
+ul.b {
+    list-style-type: square;
+  }
+ol.a {
+    list-style-type: lower-roman;
+}
+
+/*Lists*/
+tr.d0 td {
+    background-color: rgb(185, 185, 185);
+    color: black;
+  }
+  tr.d1 td {
+    background-color: white;
+    color: black;
+  }
+ tr:hover td {background:lightblue}
